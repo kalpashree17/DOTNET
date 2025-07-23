@@ -1,0 +1,25 @@
+# Ignore build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code files
+.vscode/
+
+# Visual Studio folder
+.vs/
+
+# ASP.NET secrets
+secrets.json
+
+# Logs
+*.log
+
+# Others
+*.DS_Store
+Thumbs.db
