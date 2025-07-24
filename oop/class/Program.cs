@@ -21,7 +21,7 @@ class Program
     {
         Teacher teacher1 = new Teacher();
 
-        teacher1.Name = "Sagar KC";
+        teacher1.Name = "Aparajita Nepal";
         teacher1.idNo = 50;  
 
         teacher1.changeDep();
