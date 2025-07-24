@@ -1,4 +1,4 @@
-# Ignore build results
+# Build results
 bin/
 obj/
 
@@ -8,18 +8,48 @@ obj/
 *.userosscache
 *.sln.docstates
 
-# VS Code files
-.vscode/
+# Mono Auto Generated Files
+mono_crash.*
 
-# Visual Studio folder
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Visual Studio files
 .vs/
-
-# ASP.NET secrets
-secrets.json
-
-# Logs
+*.vcxproj.user
+*.psess
+*.vsp
+*.pdb
+*.cache
+*.dbmdl
+*.sdf
+*.suo
+*.ncb
+*.opensdf
 *.log
 
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# NuGet Packages
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
 # Others
-*.DS_Store
-Thumbs.db
+*.vspscc
+*.vssscc
+*.tmp
+*.bak
+*.log
+
+# Rider IDE
+.idea/
+
+# Publish files
+*.publish.xml
+
+# Local settings
+appsettings.Development.json
